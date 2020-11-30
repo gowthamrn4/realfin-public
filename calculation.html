@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<meta name="description" content="" />
+		<meta name="author" content="" />
+
+		<title>RealFin Capital</title>
+		<!-- DEFAULT FAVICON -->
+		<link rel="icon" href="image/fav_icon.png" type="image/ico" />
+		<link rel="shortcut icon" href="image/fav_icon.png" type="image/ico" />
+		<link
+			rel="icon"
+			type="image/png"
+			href="image/fav_icon.png"
+			sizes="192x192"
+		/>
+
+		<!-- Bootstrap core CSS -->
+		<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+		<link
+			href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"
+			rel="stylesheet"
+		/>
+		<!-- Custom styles for this template -->
+		<link href="css/realfin.css" rel="stylesheet" />
+		<link href="css/tooltip.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<div class="content_nav">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-light fixed-top">
+				<a class="navbar-brand" href="index.html">
+					<img src="image/logo.png" width="150" />
+				</a>
+			</nav>
+			<div class="my_head">
+				<span class="header_title"
+					>RealFin Capital Broker Partner Program</span
+				>
+			</div>
+		</div>
+
+		<!-- Page Content -->
+		<div style="margin-bottom: 70px">
+			<div class="custom_row">
+				<div class="col-lg-1 col-1"></div>
+				<div class="col-lg-7">
+					<div class="left-border p-1 mt-3">
+						<div class="left_content left-border p-3">
+							<div class="custom_row">
+								<div class="col-lg-6 col-12 col-sm-6">
+									<span class="font_bold"
+										>Property Development Type</span
+									>
+								</div>
+								<div class="col-lg-6 col-12 col-sm-6">
+									<div class="row justify-content-end">
+										<div class="col-lg-12 col-12 col-sm-12">
+											<select class="form-control">
+												<option selected>Urban</option>
+												<option>Suburban</option>
+												<option>Rural</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="custom_row mt-3">
+								<div class="col-lg-6 col-12 col-sm-6">
+									<span class="font_bold"
+										>Property State</span
+									>
+								</div>
+								<div class="col-lg-6 col-12 col-sm-6">
+									<div class="row justify-content-end">
+										<div class="col-lg-12 col-12 col-sm-12">
+											<select class="form-control">
+												<option>TX</option>
+												<option selected>CA</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="custom_row mt-3">
+								<div class="col-lg-6 col-12 col-sm-6">
+									<span class="font_bold">Property Type</span>
+								</div>
+								<div class="col-lg-6 col-12 col-sm-6">
+									<div class="row justify-content-end">
+										<div class="col-lg-12 col-12 col-sm-12">
+											<select class="form-control">
+												<option selected>
+													Single Family
+												</option>
+												<option>Townhome</option>
+												<option>Condo</option>
+												<option>2-4 unit</option>
+												<option>
+													Commercial-Raw Land
+												</option>
+												<option>
+													Commercial-Non Residential
+												</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="custom_row mt-3">
+								<div class="col-lg-6 col-12 col-sm-6">
+									<span class="font_bold">Loan Amount</span>
+								</div>
+								<div class="col-lg-6 col-12 col-sm-6">
+									<div class="row justify-content-end">
+										<div class="col-lg-12 col-12 col-sm-12">
+											<input
+												type="text"
+												name="load-amount-currency-field"
+												id="load-amount-currency-field"
+												class="form-control"
+												pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$"
+												value=""
+												data-type="currency"
+												placeholder="Loan Amount"
+											/>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="custom_row mt-3">
+								<div class="col-lg-6 col-12 col-sm-6">
+									<span class="font_bold"
+										>Est. FICO Score</span
+									>
+								</div>
+								<div class="col-lg-6 col-12 col-sm-6">
+									<div class="row justify-content-end">
+										<div class="col-lg-12 col-12 col-sm-12">
+											<select class="form-control">
+												<option selected>700+</option>
+												<option>650-699</option>
+												<option>600-649</option>
+												<option>580-599</option>
+												<option>&lt; 580</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!------------------------------------------------------------>
+
+						<div class="left_content mt-3 left-border p-3">
+							<div class="custom_row">
+								<div class="col-lg-6 col-12 col-sm-6">
+									<span class="font_bold">Refinance</span>
+								</div>
+								<div class="col-lg-6 col-12 col-sm-6">
+									<div class="row justify-content-end">
+										<div class="col-lg-12 col-12 col-sm-12">
+											<div
+												class="row justify-content-start pl-2"
+											>
+												<div
+													class="custom_btn yes_no_btn active"
+												>
+													<a>Yes</a>
+												</div>
+												<div
+													class="custom_btn yes_no_btn"
+												>
+													<a>No</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="custom_row mt-3">
+								<div class="col-lg-6 col-12 col-sm-6">
+									<span class="font_bold"
+										>Purchase Price</span
+									>
+								</div>
+								<div class="col-lg-6 col-12 col-sm-6">
+									<div class="row justify-content-end">
+										<div class="col-lg-12 col-12 col-sm-12">
+											<input
+												type="text"
+												name="purchase-price-currency-field"
+												id="purchase-price-currency-field"
+												class="form-control"
+												pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$"
+												value=""
+												data-type="currency"
+												placeholder="Purchase Price"
+											/>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="custom_row mt-3">
+								<div class="col-lg-6 col-12 col-sm-6">
+									<span class="font_bold"
+										>Property Current As Is Value</span
+									>
+								</div>
+								<div class="col-lg-6 col-12 col-sm-6">
+									<div class="row justify-content-end">
+										<div class="col-lg-12 col-12 col-sm-12">
+											<input
+												type="text"
+												name="current-value-currency-field"
+												id="current-value-currency-field"
+												class="form-control"
+												pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$"
+												value=""
+												data-type="currency"
+												placeholder="Current Value"
+											/>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!------------------------------------------------------------>
+
+						<div class="left_content mt-3 left-border p-3">
+							<div class="custom_row">
+								<div class="col-lg-6 col-12 col-sm-6">
+									<span class="font_bold"
+										>Property Renovation</span
+									>
+								</div>
+								<div class="col-lg-6 col-12 col-sm-6">
+									<div class="row justify-content-end">
+										<div class="col-lg-12 col-12 col-sm-12">
+											<div
+												class="row justify-content-start pl-2"
+											>
+												<div
+													class="custom_btn yes_no_btn active"
+												>
+													<a>Yes</a>
+												</div>
+												<div
+													class="custom_btn yes_no_btn"
+												>
+													<a>No</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="custom_row mt-3">
+								<div class="col-lg-6 col-12 col-sm-6">
+									<span class="font_bold"
+										>Est. Cost of Reno</span
+									>
+								</div>
+								<div class="col-lg-6 col-12 col-sm-6">
+									<div class="row justify-content-end">
+										<div class="col-lg-12 col-12 col-sm-12">
+											<input
+												type="text"
+												name="cost-of-reno-currency-field"
+												id="cost-of-reno-currency-field"
+												class="form-control"
+												pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$"
+												value=""
+												data-type="currency"
+												placeholder="Cost of Reno"
+											/>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="custom_row mt-3">
+								<div class="col-lg-6 col-12 col-sm-6">
+									<span class="font_bold"
+										>After Repair Value (ARV)</span
+									>
+								</div>
+								<div class="col-lg-6 col-12 col-sm-6">
+									<div class="row justify-content-end">
+										<div class="col-lg-12 col-12 col-sm-12">
+											<input
+												type="text"
+												name="arv-currency-field"
+												id="arv-currency-field"
+												class="form-control"
+												pattern="^\$\d{1,3}(,\d{3})*(\.\d+)?$"
+												value=""
+												data-type="currency"
+												placeholder="ARV"
+											/>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!------------------------------------------------------------>
+
+						<div class="left_content mt-3 left-border p-3">
+							<div class="custom_row">
+								<div class="table" style="overflow-x: auto">
+									<table class="table">
+										<thead style="background: #e0e0e0">
+											<th style="text-align: left">#</th>
+											<th>
+												Interest Rate
+												<i
+													class="fa fa-arrow-circle-up"
+													style="color: green"
+												></i>
+											</th>
+											<th>
+												Points
+												<i
+													class="fa fa-arrow-circle-up"
+													style="color: green"
+												></i>
+											</th>
+											<th>
+												LTV
+												<i
+													class="fa fa-arrow-circle-down"
+													style="color: red"
+												></i>
+											</th>
+										</thead>
+										<tbody>
+											<tr>
+												<td style="text-align: left">
+													Base Rate
+												</td>
+												<td>10</td>
+												<td>1</td>
+												<td></td>
+											</tr>
+											<tr>
+												<td style="text-align: left">
+													Adjustments
+												</td>
+												<td></td>
+												<td></td>
+												<td></td>
+											</tr>
+											<tr>
+												<td style="text-align: left">
+													Property Development Type
+												</td>
+												<td>3</td>
+												<td>0</td>
+												<td>0</td>
+											</tr>
+											<tr>
+												<td style="text-align: left">
+													State
+												</td>
+												<td>0</td>
+												<td>0</td>
+												<td>0</td>
+											</tr>
+											<tr>
+												<td style="text-align: left">
+													Property Type
+												</td>
+												<td>0</td>
+												<td>0</td>
+												<td>20</td>
+											</tr>
+											<tr>
+												<td style="text-align: left">
+													Fico Score
+												</td>
+												<td>0</td>
+												<td>0</td>
+												<td>0</td>
+											</tr>
+											<tr>
+												<td style="text-align: left">
+													Total
+												</td>
+												<td>13</td>
+												<td>1</td>
+												<td>20</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /.col-md-4 -->
+				<div class="col-lg-3">
+					<div class="right_content p-1 mt-3">
+						<div class="left-border p-3">
+							<div class="row">
+								<div class="co-lg-12 col-12">
+									<div
+										class="justify-content-center text-center"
+									>
+										<div>
+											<div>
+												<i
+													class="fa fa-money"
+													aria-hidden="true"
+													style="font-size: 25px"
+												></i>
+											</div>
+											<div
+												class="custom_font custom_right_label"
+											>
+												Loan Amount
+											</div>
+											<div
+												class="custom_font custom_right_label_value"
+											>
+												<b>$ 1,05,000.00</b>
+											</div>
+										</div>
+										<hr />
+									</div>
+
+									<div
+										class="justify-content-center text-center"
+									>
+										<div class="col-12 col-lg-12">
+											<div
+												class="custom_font custom_right_label"
+											>
+												Validate
+											</div>
+											<div class="row mt-2">
+												<div
+													class="col-6 col-lg-6 text-left custom_font custom_right_label"
+												>
+													State
+												</div>
+												<div
+													class="col-6 col-lg-6 text-right"
+												>
+													<i
+														class="fa fa-times-circle icon_font"
+														style="color: red"
+														aria-hidden="true"
+													></i>
+												</div>
+											</div>
+											<div class="row mt-2">
+												<div
+													class="col-6 col-lg-6 text-left custom_font custom_right_label"
+												>
+													Min Loan Amt
+												</div>
+												<div
+													class="col-6 col-lg-6 text-right"
+												>
+													<i
+														class="fa fa-check-circle icon_font"
+														aria-hidden="true"
+													></i>
+												</div>
+											</div>
+											<div class="row mt-2">
+												<div
+													class="col-6 col-lg-6 text-left custom_font custom_right_label"
+												>
+													LTV
+												</div>
+												<div
+													class="col-6 col-lg-6 text-right"
+												>
+													<i
+														class="fa fa-check-circle icon_font"
+														aria-hidden="true"
+													></i>
+												</div>
+											</div>
+											<div class="row mt-2">
+												<div
+													class="col-6 col-lg-6 text-left custom_font custom_right_label"
+												>
+													ARV
+												</div>
+												<div
+													class="col-6 col-lg-6 text-right"
+												>
+													<i
+														class="fa fa-check-circle icon_font"
+														aria-hidden="true"
+													></i>
+												</div>
+											</div>
+										</div>
+										<hr />
+									</div>
+
+									<div
+										class="justify-content-center text-center"
+									>
+										<div>
+											<div class="row mt-1">
+												<div
+													class="col-lg-6"
+													style="
+														border-right: 1px solid
+															#ddd;
+													"
+												>
+													<span
+														class="custom_font custom_right_label"
+														>Interest Rate</span
+													>
+													<div
+														class="custom_font custom_right_label_value"
+													>
+														13 %
+													</div>
+												</div>
+												<div class="col-lg-6">
+													<span
+														class="custom_font custom_right_label"
+														>Points</span
+													>
+													<div
+														class="custom_font custom_right_label_value"
+													>
+														1
+													</div>
+												</div>
+											</div>
+										</div>
+										<hr />
+									</div>
+									<div
+										class="justify-content-center text-center"
+									>
+										<div>
+											<div class="row mt-1">
+												<div class="col-lg-6">
+													<span
+														class="custom_font custom_right_label"
+														data-tooltip="Minimum fee not met."
+														>Fee</span
+													>
+												</div>
+												<div class="col-lg-6">
+													<span
+														class="custom_font custom_right_label_value text-nowrap"
+														>$ 1,500.00</span
+													>
+													<span
+														class="custom_font custom_right_label"
+														data-tooltip="Minimum fee not met."
+														><i
+															class="fa fa-question-circle"
+															aria-hidden="true"
+														></i
+													></span>
+												</div>
+											</div>
+											<div class="row mt-1">
+												<div class="col-lg-6">
+													<span
+														class="custom_font custom_right_label"
+														data-tooltip="Minimum fee not met."
+														>Fee</span
+													>
+												</div>
+												<div class="col-lg-6">
+													<span
+														class="custom_font custom_right_label_value text-nowrap error_display"
+														>$ 1,500.00</span
+													>
+													<span
+														class="custom_font custom_right_label error_display"
+														data-tooltip="Minimum fee not met."
+														><i
+															class="fa fa-question-circle"
+															aria-hidden="true"
+														></i
+													></span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<hr />
+									<div
+										class="justify-content-center text-center"
+									>
+										<div>
+											<div
+												class="custom_font custom_right_label"
+											>
+												LTV
+											</div>
+											<div
+												class="custom_font custom_right_label_value"
+											>
+												<b>32%</b>
+											</div>
+										</div>
+										<hr />
+									</div>
+
+									<div
+										class="justify-content-center text-center"
+									>
+										<div>
+											<div
+												class="custom_font custom_right_label"
+											>
+												LTV Requirement
+												<i
+													class="fa fa-question-circle"
+													aria-hidden="true"
+												></i>
+											</div>
+											<div class="row mt-1">
+												<div
+													class="col-lg-6"
+													style="
+														border-right: 1px solid
+															#ddd;
+													"
+												>
+													<span
+														class="custom_font custom_right_label"
+														>Base</span
+													>
+													<div
+														class="custom_font custom_right_label_value"
+													>
+														68 %
+													</div>
+												</div>
+												<div class="col-lg-6">
+													<span
+														class="custom_font custom_right_label"
+														>Adjusted</span
+													>
+													<div
+														class="custom_font custom_right_label_value"
+													>
+														48 %
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="left-border mt-2 p-3">
+							<div class="justify-content-center">
+								<div class="mt-3" style="color: red">
+									<div>
+										<i
+											class="fa fa-exclamation-triangle"
+											aria-hidden="true"
+										></i>
+										Please fix the following
+									</div>
+									<div
+										class="row mt-4"
+										style="text-align: left"
+									>
+										<div class="col-lg-12 col-12">
+											<span class="custom_font">
+												<i
+													class="fa fa-dot-circle-o"
+													aria-hidden="true"
+												></i>
+												We Currently only provide
+												instant quotes for Properties
+												located in Texas. Please contact
+												us at (713) 999-9999 to discuss
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-1 col-1"></div>
+			</div>
+		</div>
+		<!-- /.container -->
+
+		<!-- Footer -->
+		<footer class="py-4 fixed-bottom" style="background: #292f35">
+			<div
+				style="
+					display: flex;
+					flex-direction: column;
+					font-size: 10px;
+					margin-left: 18px;
+				"
+			>
+				<span class="text-left text-white"
+					>© Copyright 2020 RealFin Capital, LLC. All Rights
+					Reserved</span
+				>
+				<span class="text-left text-white"
+					>1707 1/2 Post Oak Blvd #270</span
+				>
+				<span class="text-left text-white">Houston, TX 77056</span>
+			</div>
+			<!-- /.container -->
+		</footer>
+
+		<!-- Bootstrap core JavaScript -->
+		<script src="vendor/jquery/jquery.min.js"></script>
+		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function () {
+				$("input[data-type='currency']").on({
+					keyup: function () {
+						formatCurrency($(this));
+					},
+					blur: function () {
+						formatCurrency($(this), "blur");
+					},
+				});
+			});
+
+			function formatNumber(n) {
+				// format number 1000000 to 1,234,567
+				return n
+					.replace(/\D/g, "")
+					.replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+			}
+
+			function formatCurrency(input, blur) {
+				// appends $ to value, validates decimal side
+				// and puts cursor back in right position.
+
+				// get input value
+				var input_val = input.val();
+
+				// don't validate empty input
+				if (input_val === "") {
+					return;
+				}
+
+				// original length
+				var original_len = input_val.length;
+
+				// initial caret position
+				var caret_pos = input.prop("selectionStart");
+
+				// check for decimal
+				if (input_val.indexOf(".") >= 0) {
+					// get position of first decimal
+					// this prevents multiple decimals from
+					// being entered
+					var decimal_pos = input_val.indexOf(".");
+
+					// split number by decimal point
+					var left_side = input_val.substring(0, decimal_pos);
+					var right_side = input_val.substring(decimal_pos);
+
+					// add commas to left side of number
+					left_side = formatNumber(left_side);
+
+					// validate right side
+					right_side = formatNumber(right_side);
+
+					// On blur make sure 2 numbers after decimal
+					if (blur === "blur") {
+						right_side += "00";
+					}
+
+					// Limit decimal to only 2 digits
+					right_side = right_side.substring(0, 2);
+
+					// join number by .
+					input_val = "$ " + left_side + "." + right_side;
+				} else {
+					// no decimal entered
+					// add commas to number
+					// remove all non-digits
+					input_val = formatNumber(input_val);
+					input_val = "$ " + input_val;
+
+					// final formatting
+					if (blur === "blur") {
+						input_val += ".00";
+					}
+				}
+
+				// send updated string to input
+				input.val(input_val);
+
+				// put caret back in the right position
+				var updated_len = input_val.length;
+				caret_pos = updated_len - original_len + caret_pos;
+				input[0].setSelectionRange(caret_pos, caret_pos);
+			}
+		</script>
+	</body>
+</html>

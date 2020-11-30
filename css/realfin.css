@@ -1,0 +1,326 @@
+/*!
+ * Start Bootstrap - Small Business (https://startbootstrap.com/template/small-business)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-small-business/blob/master/LICENSE)
+ */
+/* body {
+  padding-top: 56px;
+} */
+body {
+	padding-top: 46px;
+	padding-bottom: 50px;
+	letter-spacing: 1px;
+}
+.navbar {
+	padding: 0 1rem;
+}
+.navbar-brand {
+	padding-top: unset;
+	padding-bottom: unset;
+}
+.header_nav {
+	background: #007dca;
+}
+.header_title_text {
+	font-size: 16px;
+}
+.bold_text {
+	font-size: 18px;
+	font-weight: bold;
+}
+.custom_row {
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+.border {
+	border-width: 5px;
+	border-color: black;
+}
+.left-border {
+	box-shadow: 4px 1px 20px #ddd;
+	border: 1px solid #ddd;
+}
+.font_bold {
+	font-weight: 600;
+}
+.custom_btn {
+	padding-left: 21px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	padding-right: 21px;
+	margin: 5px;
+	border-radius: 15px;
+	border: 1px solid #ddd;
+	font-size: 14px;
+}
+.yes_no_btn {
+	background: #ffffff;
+	color: #000000;
+	cursor: pointer;
+}
+.yes_no_btn.active {
+	background: #007dca;
+	color: #fff;
+}
+.yes_no_btn:hover {
+	background: #49a9e4;
+	color: #fff;
+	box-shadow: 1px 2px 3px #49a9e4;
+}
+.table {
+	text-align: center;
+}
+.text_line {
+	text-decoration-line: line-through;
+}
+.custom_font {
+	font-size: 15px;
+}
+.custom_font.custom_right_label {
+	font-weight: 500 !important;
+	color: #aaa !important;
+	white-space: nowrap;
+}
+.custom_font.custom_right_label_value {
+	font-weight: 700 !important;
+	color: #616161 !important;
+}
+.custom_font.custom_right_label.error_display,
+.custom_font.custom_right_label_value.error_display {
+	color: #dc3545 !important;
+}
+.icon_font {
+	font-size: 20px;
+	color: #6bc455;
+}
+.my_head {
+	background-color: #007dca;
+	display: flex;
+	padding: 5px;
+	align-items: center;
+}
+.header_title {
+	margin-left: 18px;
+	color: aliceblue;
+	margin-top: 5px;
+}
+.input_content span {
+	font-size: 10px;
+	color: gray;
+}
+.next_btn {
+	background: #007dca;
+	color: aliceblue;
+	opacity: 0.65;
+	pointer-events: none;
+	cursor: default;
+}
+.next_btn.active {
+	opacity: unset;
+	pointer-events: unset;
+	cursor: pointer;
+}
+.testimonial-item .testimonial-text p {
+	font-weight: 400;
+	padding: 10px 10px 10px 10px;
+	margin: 0;
+	line-height: 24px;
+	color: #6f6d6d;
+}
+.testimonial-item .testimonial-text h3,
+.testimonial-item .testimonial-text span,
+.testimonial-item .testimonial-text p {
+	font-size: 12px;
+}
+.testimonial-item .testimonial-text h3 {
+	font-weight: 600;
+	margin-bottom: unset !important;
+}
+.testimonial-item .testimonial-text h3:first-child {
+	color: #2b93d3;
+}
+.testimonial-item .testimonial-text h3:last-child {
+	color: #000000;
+}
+.testimonial-item .testimonial-text span {
+	color: #aaa;
+}
+.testimonial-image {
+	width: 80px;
+	border: 3px solid #fff;
+	height: 80px;
+	border-radius: 50%;
+}
+.testimonial-item {
+	text-align: center;
+}
+@media (max-width: 480px) {
+	#lastname_box {
+		margin-top: 20px;
+	}
+}
+.content_nav {
+	display: flex;
+	flex-direction: column;
+}
+label,
+input {
+	position: relative;
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+label::after {
+	content: attr(data-domain);
+	position: absolute;
+	top: 0px;
+	right: 1px;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 12px;
+	display: block;
+	color: rgba(0, 0, 0, 0.6);
+	font-weight: bold;
+	cursor: pointer;
+	padding: 10px 10px;
+}
+.input_content ul li {
+	font-size: 13px;
+	color: gray;
+	font-weight: bold;
+}
+.left_content {
+	padding: 15px;
+}
+.go_back_text {
+	text-decoration-line: underline;
+	font-size: 14px;
+	color: #000000;
+}
+.go_back_text:hover {
+	color: inherit;
+}
+.dropdown-item{
+	font-size: 13px;
+}
+/* Absolute Center Spinner */
+.loading {
+	position: fixed;
+	z-index: 999;
+	overflow: show;
+	margin: auto;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 50px;
+	height: 50px;
+	display: none;
+  }
+  
+  /* Transparent Overlay */
+  .loading:before {
+	content: '';
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255,255,255,0.5);
+  }
+  
+  /* :not(:required) hides these rules from IE9 and below */
+  .loading:not(:required) {
+	/* hide "loading..." text */
+	font: 0/0 a;
+	color: transparent;
+	text-shadow: none;
+	background-color: transparent;
+	border: 0;
+  }
+  
+  .loading:not(:required):after {
+	content: '';
+	display: block;
+	font-size: 10px;
+	width: 50px;
+	height: 50px;
+	margin-top: -0.5em;
+  
+	border: 15px solid rgba(33, 150, 243, 1.0);
+	border-radius: 100%;
+	border-bottom-color: transparent;
+	-webkit-animation: spinner 1s linear 0s infinite;
+	animation: spinner 1s linear 0s infinite;
+  
+  
+  }
+  
+  /* Animation */
+  
+  @-webkit-keyframes spinner {
+	0% {
+	  -webkit-transform: rotate(0deg);
+	  -moz-transform: rotate(0deg);
+	  -ms-transform: rotate(0deg);
+	  -o-transform: rotate(0deg);
+	  transform: rotate(0deg);
+	}
+	100% {
+	  -webkit-transform: rotate(360deg);
+	  -moz-transform: rotate(360deg);
+	  -ms-transform: rotate(360deg);
+	  -o-transform: rotate(360deg);
+	  transform: rotate(360deg);
+	}
+  }
+  @-moz-keyframes spinner {
+	0% {
+	  -webkit-transform: rotate(0deg);
+	  -moz-transform: rotate(0deg);
+	  -ms-transform: rotate(0deg);
+	  -o-transform: rotate(0deg);
+	  transform: rotate(0deg);
+	}
+	100% {
+	  -webkit-transform: rotate(360deg);
+	  -moz-transform: rotate(360deg);
+	  -ms-transform: rotate(360deg);
+	  -o-transform: rotate(360deg);
+	  transform: rotate(360deg);
+	}
+  }
+  @-o-keyframes spinner {
+	0% {
+	  -webkit-transform: rotate(0deg);
+	  -moz-transform: rotate(0deg);
+	  -ms-transform: rotate(0deg);
+	  -o-transform: rotate(0deg);
+	  transform: rotate(0deg);
+	}
+	100% {
+	  -webkit-transform: rotate(360deg);
+	  -moz-transform: rotate(360deg);
+	  -ms-transform: rotate(360deg);
+	  -o-transform: rotate(360deg);
+	  transform: rotate(360deg);
+	}
+  }
+  @keyframes spinner {
+	0% {
+	  -webkit-transform: rotate(0deg);
+	  -moz-transform: rotate(0deg);
+	  -ms-transform: rotate(0deg);
+	  -o-transform: rotate(0deg);
+	  transform: rotate(0deg);
+	}
+	100% {
+	  -webkit-transform: rotate(360deg);
+	  -moz-transform: rotate(360deg);
+	  -ms-transform: rotate(360deg);
+	  -o-transform: rotate(360deg);
+	  transform: rotate(360deg);
+	}
+  }
