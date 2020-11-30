@@ -169,6 +169,17 @@
 				</div>
 			</div>
 			<!-- /.row -->
+			<div class="row">
+		   <div class="col-lg-6 col-6">
+				<button
+					class="btn btn-primary next_btn active"
+					onclick="showloader()"
+					type="button"
+				>
+					Show Loader
+				</button>
+			</div>
+		</div>
 		</div>
 		<!-- /.container -->
 
@@ -197,7 +208,15 @@
 		<script src="js/realfin.js"></script>
 		<script src="vendor/jquery/jquery.min.js"></script>
 		<script>
-				 showRefresh()
+		 function showloader(){
+			showRefresh()
+			setTimeout(()=>{
+                hideRefresh()
+			},5000)
+		 }
+		 function hideloader(){
+			 hideRefresh()
+		 }
 		</script>
 		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 	</body>
